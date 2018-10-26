@@ -1,12 +1,56 @@
-h1 {
-  text-decoration: none; }
-  h1 .single {
-    font-size: 16px; }
+/*
+Error: File to import not found or unreadable: scss/test4.
+        on line 10 of test.scss
 
-h3 {
-  padding: 10px; }
+5:     font-size: 16px;
+6:   }
+7: }
+8: @import "test2";
+9: @import "scss/test3";
+10: @import "scss/test4";
 
-p {
-  margin: 10px; }
-
-/*# sourceMappingURL=test.css.map */
+Backtrace:
+test.scss:10
+/Users/kawabata/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.5.7/lib/sass/tree/import_node.rb:67:in `rescue in import'
+/Users/kawabata/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.5.7/lib/sass/tree/import_node.rb:45:in `import'
+/Users/kawabata/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.5.7/lib/sass/tree/import_node.rb:28:in `imported_file'
+/Users/kawabata/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.5.7/lib/sass/tree/import_node.rb:37:in `css_import?'
+/Users/kawabata/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.5.7/lib/sass/tree/visitors/perform.rb:310:in `visit_import'
+/Users/kawabata/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.5.7/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/kawabata/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.5.7/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Users/kawabata/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.5.7/lib/sass/stack.rb:79:in `block in with_base'
+/Users/kawabata/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.5.7/lib/sass/stack.rb:135:in `with_frame'
+/Users/kawabata/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.5.7/lib/sass/stack.rb:79:in `with_base'
+/Users/kawabata/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.5.7/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/kawabata/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.5.7/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/kawabata/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.5.7/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/kawabata/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.5.7/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/kawabata/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.5.7/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/Users/kawabata/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.5.7/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Users/kawabata/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.5.7/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/Users/kawabata/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.5.7/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/kawabata/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.5.7/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/Users/kawabata/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.5.7/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/kawabata/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.5.7/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/Users/kawabata/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.5.7/lib/sass/tree/visitors/perform.rb:10:in `visit'
+/Users/kawabata/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.5.7/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/kawabata/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.5.7/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Users/kawabata/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.5.7/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/Users/kawabata/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.5.7/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/Users/kawabata/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.5.7/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
+/Users/kawabata/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.5.7/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/kawabata/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.5.7/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/kawabata/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.5.7/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/kawabata/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.5.7/lib/sass/plugin.rb:82:in `update_stylesheets'
+/Users/kawabata/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.5.7/lib/sass/exec/sass_scss.rb:338:in `watch_or_update'
+/Users/kawabata/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.5.7/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/Users/kawabata/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.5.7/lib/sass/exec/base.rb:50:in `parse'
+/Users/kawabata/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.5.7/lib/sass/exec/base.rb:18:in `parse!'
+/Users/kawabata/.rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/sass-3.5.7/bin/scss:13:in `<top (required)>'
+/Users/kawabata/.rbenv/versions/2.4.1/bin/scss:22:in `load'
+/Users/kawabata/.rbenv/versions/2.4.1/bin/scss:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: scss/test4.\A         on line 10 of test.scss\A \A 5:     font-size: 16px;\A 6:   }\A 7: }\A 8: @import \"test2\";\A 9: @import \"scss/test3\";\A 10: @import \"scss/test4\";"; }
